@@ -6,10 +6,39 @@ const peliculas = document.querySelectorAll('.pelicula');
 const flechaIzquierda = $('#flecha-izquierda');
 const flechaDerecha = $('#flecha-derecha');
 const btnAturorizacion = $("#btn-autorizacion")
+const btnIr = $("#btn-propuestas-ir")
+const btninicio = $("#a-inicio")
+const btnCandidatos= $("#a-candidatos")
+const btnPropuestas = $("#a-propuestas")
+
 
 // ------- ------- BTN AUTORIZACION ------- ------
 btnAturorizacion.addEventListener("click", () => {
   window.open("https://drive.google.com/drive/folders/1SiG8Ol56LhzlVdasUn3BdKaN7krG4-2f?usp=sharing", "_blank")
+})
+
+// ? ----- ----- Event Listener para btn de ir y de los a ----- -----
+btnIr.addEventListener("click", () => {
+  const sitio = $("#propuestas-contenedor")
+  sitio.scrollIntoView({ behavior: 'smooth' });
+})
+
+btninicio.addEventListener("click", (e) => {
+  e.preventDefault()
+  const sitio = $("#inicio")
+  sitio.scrollIntoView({ behavior: 'smooth' });
+})
+
+btnCandidatos.addEventListener("click", (e) => {
+  e.preventDefault()
+  const sitio = $("#contenedor-candidatas")
+  sitio.scrollIntoView({ behavior: 'smooth' });
+})
+
+btnPropuestas.addEventListener("click", (e) => {
+  e.preventDefault()
+  const sitio = $("#propuestas-contenedor")
+  sitio.scrollIntoView({ behavior: 'smooth' });
 })
 
 // ? ----- ----- Event Listener para la flecha derecha. ----- -----
