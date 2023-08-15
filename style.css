@@ -193,6 +193,8 @@ header nav a.activo {
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
 	width: 100%;
+  max-width: 500px;
+  height: 300px;
 	vertical-align: top;
 }
 
@@ -205,6 +207,42 @@ header nav a.activo {
 font-weight: normal;
 color: var(--amarillo);
 font-size: 40px;
+}
+
+.informacion-definitiva{
+border: 1px solid #fff;
+height: 550px;
+}
+
+.img-informacion-integrantes{
+	width: 100%;
+	height: 550px;
+}
+
+.nombre-integrante{
+	font-weight: 600;
+	color: var(--amarillo);
+}
+
+.cargo-integrante{
+	font-weight: 300;
+	font-size: 20px;
+	color: #ffffff99;
+}
+
+.dato-vario{
+	margin: 0;
+	font-size: 20px;
+	color: #FFF;
+}
+
+.tipo-dato-vario{
+	font-size: 15px;
+	color: var(--amarillo);
+}
+
+.datos-varios-participantes{
+	margin-bottom: 50px;
 }
 
 /* ---- ----- ----- FOOTER ----- ----- ----- */
