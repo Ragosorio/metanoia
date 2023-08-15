@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" href="/img/metanoia.png" width="600" height="600"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>METANOIA || Consejo Estudiantil 2024</title>
   </head>
   <body>
@@ -12,8 +13,8 @@
 		<div class="contenedor">
 			<h2 class="logotipo">Metanoia</h2>
 			<nav>
-				<a href="" class="activo">Inicio</a>
-				<a href="propuestas.html">Propuestas</a>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Propuestas</a>
 				<a href="#">Misión y Visión</a>
 				<a href="#">Objetivos</a>
 			</nav>
@@ -21,7 +22,7 @@
 	</header>
 
 	<main>
-		<div class="pelicula-principal">
+		<div class="pelicula-principal" id="contenedor-primera-pantalla">
 			<div class="contenedor">
 				<h3 class="titulo">Consejo Estudiantil 2024</h3>
 				<p class="descripcion">
@@ -32,7 +33,7 @@
 			</div>
 		</div>
 
-		<div class="peliculas-recomendadas contenedor">
+		<div class="peliculas-recomendadas contenedor" id="contenedor-candidatas">
 			<div class="contenedor-titulo-controles">
 				<h3>Información de las integrantes</h3>
 				<div class="indicadores"></div>
@@ -112,8 +113,39 @@
 				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
 			</div>
 		</div>
+
+    <div class="container text-center menos-opaco" id="propuestas-contenedor">
+      <div class="row align-items-start">
+          <h2 class="titulo-propuesta">Propuestas</h2>
+        <div class="col d-flex justify-content-center">
+          <ul>
+            <li class="my-5">Visitas a fundaciones con alumnas que lo desearan, realizando diferentes actividades acorde a las necesidades del centro, de tal manera que las alumnas fueran capaces desarrollar la empatía y solidaridad y al mismo tiempo hacer algo por dichos centros y los niños/personas que ahí se encuentren.</li>
+            <li class="my-5">En conjunto con el colegio mejorar el menú de la cafetería dentro de lo posible, viendo por los gustos y la salud de las alumnas.</li>
+            <li class="my-5">Gestionar la posibilidad de retomar el anuario.</li>
+            <li class="my-5">Hacer gorros de crochet para ayudar a los niños de ayuda con remuneración en la clase de home economics.</li>
+        </ul>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <ul>
+            <li class="my-5">Salidas a lugares donde se puedan plantar árboles o hacer actividades para ayudar al medio ambiente.</li>
+            <li class="my-5">Recaudar víveres o útiles escolares para escuelas o lugares públicos que lo necesiten.</li>
+            <li class="my-5">Programas de tutorías en los que estudiantes de diferentes edades o la misma edad brinden ayuda a estudiantes más jóvenes con sus estudios y  habilidades académicas.</li>
+            <li class="my-5">Reutilizar botellas o plásticos para nuevas creaciones como bancas con ayuda de otra empresa.</li>
+        </ul>
+          
+      </div>
+      </div>
+    </div>
 	</main>
 	
+  <footer>
+    <div class="contenedor-f">
+        <div class="copyright">
+            <p>Copyright Ragstore @ 2023</p>
+        </div>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script type="module" src="/main.js"></script>
   </body>

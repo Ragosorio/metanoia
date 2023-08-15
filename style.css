@@ -1,5 +1,5 @@
 :root {
-	--rojo: #E50914;
+	--amarillo: #e1e509;
 	--fondo: #141414;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-	padding: 30px 0;
+	padding: 15px 0;
 }
 
 header .contenedor {
@@ -32,7 +32,7 @@ header .contenedor {
 header .logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
-	color: var(--rojo);
+	color: var(--amarillo);
 	font-size: 40px;
 }
 
@@ -100,22 +100,6 @@ header nav a.activo {
 	margin-right: 1.25em;
 }
 
-/* ---- ----- ----- Propuestas ----- ----- ----- */
-.propuestas {
-	font-size: 16px;
-	min-height: 37.52em;
-	color: #fff;
-	background-position: center center;
-	background-size: cover;
-	display: flex;
-	align-items: end;
-}
-
-.titulo-propuesta{font-family: 'Bebas Neue', cursive;
-font-weight: normal;
-color: #e5091493;
-font-size: 40px;
-}
 /* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
 .contenedor-titulo-controles {
 	display: flex;
@@ -129,7 +113,7 @@ font-size: 40px;
 }
 
 .contenedor-titulo-controles .indicadores button {
-	background: #fff;
+  background: #fff;
 	height: 3px;
 	width: 10px;
 	cursor: pointer;
@@ -139,7 +123,7 @@ font-size: 40px;
 
 .contenedor-titulo-controles .indicadores button:hover,
 .contenedor-titulo-controles .indicadores button.activo {
-	background: red;
+	background: var(--amarillo);
 }
 
 
@@ -192,7 +176,7 @@ font-size: 40px;
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel {
-	display: flex;
+  display: flex;
 	flex-wrap: nowrap;
 }
 
@@ -212,9 +196,36 @@ font-size: 40px;
 	vertical-align: top;
 }
 
+/* ---- ----- ----- Propuestas ----- ----- ----- */
+.menos-opaco{
+  color: #ffffff99;
+}
+
+.titulo-propuesta{font-family: 'Bebas Neue', cursive;
+font-weight: normal;
+color: var(--amarillo);
+font-size: 40px;
+}
+
+/* ---- ----- ----- FOOTER ----- ----- ----- */
+
+footer{
+  background: #000;
+}
+
+footer .copyright{
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+footer .copyright p{
+  margin: 0;
+}
+
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
-	header .logotipo {
+  header .logotipo {
 		margin-bottom: 10px;
 		font-size: 30px;
 	}

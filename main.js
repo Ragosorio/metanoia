@@ -1,11 +1,11 @@
 import './style.css'
-
-const fila = document.querySelector('.contenedor-carousel');
+const $ = r => document.querySelector(r)
+const fila = $('.contenedor-carousel');
 const peliculas = document.querySelectorAll('.pelicula');
 
-const flechaIzquierda = document.getElementById('flecha-izquierda');
-const flechaDerecha = document.getElementById('flecha-derecha');
-const btnAturorizacion = document.getElementById("btn-autorizacion")
+const flechaIzquierda = $('#flecha-izquierda');
+const flechaDerecha = $('#flecha-derecha');
+const btnAturorizacion = $("#btn-autorizacion")
 
 // ------- ------- BTN AUTORIZACION ------- ------
 btnAturorizacion.addEventListener("click", () => {
