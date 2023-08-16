@@ -313,6 +313,7 @@ footer .copyright p{
 
 	.pelicula-principal {
 		font-size: 14px;
+		min-height: 700px;
 	}
 
 	.pelicula-principal .descripcion {
@@ -325,7 +326,7 @@ footer .copyright p{
 
 	.peliculas-recomendadas .contenedor-carousel .carousel {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
 	}
 
@@ -334,4 +335,29 @@ footer .copyright p{
 	.peliculas-recomendadas .flecha-derecha {
 		display: none;
 	}
+
+	.btn-arriba{
+		margin-bottom: 10px;
+	}
+
+	.contenedor-menu2{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu article {
+    width: 100%;
+}
+.art-izq{
+	border-right: none;
+}
+
+.informacion-definitiva {
+    border: 1px solid #fff;
+    height: 450px;
+	width: 100%;
+}
+
+.img-informacion-integrantes{display: none;}
+
 }
