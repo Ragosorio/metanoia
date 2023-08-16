@@ -245,6 +245,44 @@ height: 550px;
 	margin-bottom: 50px;
 }
 
+/* "menu" */
+.menu{
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menu .contenedor-menu, 
+.menu .contenedor-menu .contenedor-menu2{
+    border: 1px solid #AAA;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.menu article {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.art-izq{
+	border-right: 1px solid #AAA;
+}
+
+.menu .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+	color: var(--amarillo);
+}
+
+.menu .platillo{
+    overflow: hidden;
+    text-align: center;
+	color: #fff;
+}
+
 /* ---- ----- ----- FOOTER ----- ----- ----- */
 
 footer{
