@@ -46,7 +46,7 @@ btnCandidata1.addEventListener("click", e => {
 	correo = "20140008",
 	promedioAcademico = "99.1",
 	gradoActual = "Tercero Básico D",
-	img = "/img/1.png"
+	img = "./img/1.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -56,13 +56,13 @@ btnCandidata2.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Jimena Barreda González",
 	cargo = "Vicepresidenta",
-	tel = "4608-1168",
+	tel = "5940-5607",
 	promedio = "90-100",
 	grado24 = "Cuarto Bachillerato en ciencias y letras",
 	correo = "20190095",
-	promedioAcademico = "99.1",
+	promedioAcademico = "97.1",
 	gradoActual = "Tercero Básico D",
-	img = "/img/2.png"
+	img = "./img/2.png"
 	
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -76,7 +76,7 @@ btnCandidata3.addEventListener("click", e => {
 	correo = "20110267",
 	promedioAcademico = "89.6",
 	gradoActual = "Cuarto Bachillerato en computación",
-	img = "/img/3.png"
+	img = "./img/3.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -91,7 +91,7 @@ btnCandidata4.addEventListener("click", e => {
 	correo = "20130157",
 	promedioAcademico = "94.8",
 	gradoActual = "Primero Básico E",
-	img = "/img/4.png"
+	img = "./img/4.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -106,7 +106,7 @@ btnCandidata5.addEventListener("click", e => {
 	correo = "20180114",
 	promedioAcademico = "95.9",
 	gradoActual = "Sexto primaria",
-	img = "/img/5.png"
+	img = "./img/5.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -121,7 +121,7 @@ btnCandidata6.addEventListener("click", e => {
 	correo = "20130142",
 	promedioAcademico = "92.5",
 	gradoActual = "Segundo básico",
-	img = "/img/6.png"
+	img = "./img/6.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -136,7 +136,7 @@ btnCandidata7.addEventListener("click", e => {
 	correo = "20170177",
 	promedioAcademico = "96.3",
 	gradoActual = "Primero básico",
-	img = "/img/7.png"
+	img = "./img/7.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -151,7 +151,7 @@ btnCandidata8.addEventListener("click", e => {
 	correo = "20160258",
 	promedioAcademico = "85.6",
 	gradoActual = "Quinto Empresarial",
-	img = "/img/8.png"
+	img = "./img/8.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -166,7 +166,7 @@ btnCandidata8.addEventListener("click", e => {
 	correo = "20220071",
 	promedioAcademico = "92",
 	gradoActual = "Quinto Magisterio",
-	img = "/img/9.png"
+	img = "./img/9.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -181,7 +181,7 @@ btnCandidata10.addEventListener("click", e => {
 	correo = "20140061",
 	promedioAcademico = "99.3",
 	gradoActual = "Sexto de primaria ",
-	img = "/img/10.png"
+	img = "./img/10.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -196,7 +196,7 @@ btnCandidata11.addEventListener("click", e => {
 	correo = "20130109",
 	promedioAcademico = "96.9",
 	gradoActual = "Tercero Básico",
-	img = "/img/11.png"
+	img = "./img/11.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
@@ -211,7 +211,7 @@ btnCandidata12.addEventListener("click", e => {
 	correo = "20140094",
 	promedioAcademico = "91.3",
 	gradoActual = "Segundo Básico",
-	img = "/img/12.png"
+	img = "./img/12.png"
 
 	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
 })
