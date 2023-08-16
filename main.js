@@ -74,7 +74,7 @@ btnCandidata3.addEventListener("click", e => {
 	tel = "4175-6842",
 	grado24 = "Quinto Bachillerato en computación",
 	correo = "20110267",
-	promedioAcademico = "89.6",
+	promedioAcademico = "90",
 	gradoActual = "Cuarto Bachillerato en computación",
 img = btnCandidata3.querySelector("img").src
 
