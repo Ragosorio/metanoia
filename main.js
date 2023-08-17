@@ -21,18 +21,11 @@ const informacionContenedor = $("#indormacion-integrantes")
 
 const flechaIzquierda = $('#flecha-izquierda');
 const flechaDerecha = $('#flecha-derecha');
-const btnAturorizacion = $("#btn-autorizacion")
 const btnIr = $("#btn-propuestas-ir")
 const btninicio = $("#a-inicio")
 const btnCandidatos= $("#a-candidatos")
 const btnPropuestas = $("#a-propuestas")
 const btnVisionMision = $("#a-vison-mision")
-
-
-// ------- ------- BTN AUTORIZACION ------- ------
-btnAturorizacion.addEventListener("click", () => {
-  window.open("https://drive.google.com/drive/folders/1SiG8Ol56LhzlVdasUn3BdKaN7krG4-2f?usp=sharing", "_blank")
-})
 
 // ------- ------- BTN candidatas ------- ------
 btnCandidata1.addEventListener("click", e => {
