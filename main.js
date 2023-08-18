@@ -33,15 +33,13 @@ btnCandidata1.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "María Renee Chavez Ortiz",
 	cargo = "Presidenta",
-	tel = "4608-1168",
-	promedio = "90-100",
 	grado24 = "Cuarto Bachillerato en computación",
 	correo = "20140008",
 	promedioAcademico = "99.1",
 	gradoActual = "Tercero Básico D",
 	img = btnCandidata1.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata2.addEventListener("click", e => {
@@ -49,29 +47,26 @@ btnCandidata2.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Jimena Barreda González",
 	cargo = "Vicepresidenta",
-	tel = "5940-5607",
-	promedio = "90-100",
 	grado24 = "Cuarto Bachillerato en ciencias y letras",
 	correo = "20190095",
 	promedioAcademico = "97.1",
 	gradoActual = "Tercero Básico D",
 img = btnCandidata2.querySelector("img").src
 	
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 btnCandidata3.addEventListener("click", e => {
 	e.preventDefault()
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Nicole Rangel Almazán",
 	cargo = "Secretaria y Encargada de R.R.P.P.",
-	tel = "4175-6842",
 	grado24 = "Quinto Bachillerato en computación",
 	correo = "20110267",
 	promedioAcademico = "90",
 	gradoActual = "Cuarto Bachillerato en computación",
 img = btnCandidata3.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata4.addEventListener("click", e => {
@@ -79,14 +74,13 @@ btnCandidata4.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Valeria Estefanía Mansilla Orellana",
 	cargo = "Vocal de Tecnología",
-	tel = "3806-7381",
 	grado24 = "Segundo Básico",
 	correo = "20130157",
 	promedioAcademico = "94.8",
 	gradoActual = "Primero Básico E",
 img = btnCandidata4.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata5.addEventListener("click", e => {
@@ -94,14 +88,13 @@ btnCandidata5.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Débora Esther Cruz Sagastume",
 	cargo = "Vocal de Tecnología",
-	tel = "5821-5353",
 	grado24 = "Primero Básico",
 	correo = "20180114",
 	promedioAcademico = "95.9",
 	gradoActual = "Sexto primaria",
 img = btnCandidata5.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata6.addEventListener("click", e => {
@@ -109,14 +102,13 @@ btnCandidata6.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Karla Leticia Flores Veliz",
 	cargo = "Vocal de Civismo y Proyección",
-	tel = "4541-0536",
 	grado24 = "Tercero Básico",
 	correo = "20130142",
 	promedioAcademico = "92.5",
 	gradoActual = "Segundo básico",
 img = btnCandidata6.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata7.addEventListener("click", e => {
@@ -124,14 +116,13 @@ btnCandidata7.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Liliana Kang",
 	cargo = "Vocal de Salud y Bienestar",
-	tel = "5629-0460",
 	grado24 = "Segundo Básico",
 	correo = "20170177",
 	promedioAcademico = "96.3",
 	gradoActual = "Primero básico",
 img = btnCandidata7.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata8.addEventListener("click", e => {
@@ -139,14 +130,13 @@ btnCandidata8.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "María Daniela Soto Marroquín",
 	cargo = "Vocal de Inglés",
-	tel = "5986-5087",
 	grado24 = "Sexto Empresarial",
 	correo = "20160258",
 	promedioAcademico = "85.6",
 	gradoActual = "Quinto Empresarial",
 img = btnCandidata8.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 	
 	btnCandidata9.addEventListener("click", e => {
@@ -154,14 +144,13 @@ img = btnCandidata8.querySelector("img").src
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Alexia Sara Daniela Cuevas Pedraza",
 	cargo = "Vocal de Inglés",
-	tel = "5332-1951",
 	grado24 = "Sexto Magisterio",
 	correo = "20220071",
 	promedioAcademico = "92",
 	gradoActual = "Quinto Magisterio",
 img = btnCandidata9.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata10.addEventListener("click", e => {
@@ -169,14 +158,13 @@ btnCandidata10.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Kristel Betsabé Sáenz Posadas",
 	cargo = "Vocal de Formación Cristiana",
-	tel = "5634-8683",
 	grado24 = "Primero Básico",
 	correo = "20140061",
 	promedioAcademico = "99.3",
 	gradoActual = "Sexto de primaria ",
 	img = btnCandidata10.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata11.addEventListener("click", e => {
@@ -184,14 +172,13 @@ btnCandidata11.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Marcela del Rosario Fajardo Sanchez ",
 	cargo = "Vocal de Cultura y Arte",
-	tel = "3540-3382",
 	grado24 = "Cuarto bachillerato en diseño gráfico",
 	correo = "20130109",
 	promedioAcademico = "96.9",
 	gradoActual = "Tercero Básico",
 	img = btnCandidata11.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 btnCandidata12.addEventListener("click", e => {
@@ -199,21 +186,19 @@ btnCandidata12.addEventListener("click", e => {
 	informacionContenedor.scrollIntoView({ behavior: 'smooth' });
 	const nombre = "Ximena Castillo Sanchez",
 	cargo = "Vocal de Eco-Science",
-	tel = "5691-1665",
 	grado24 = "Tercero Básico",
 	correo = "20140094",
 	promedioAcademico = "91.3",
 	gradoActual = "Segundo Básico",
 	img = btnCandidata12.querySelector("img").src
 
-	candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img)
+	candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img)
 })
 
 // ------- ------- FUNCION CAMBIAR HTML ------- ------
-function candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, gradoActual, img){
+function candidataInfo(nombre, cargo, grado24, correo, promedioAcademico, gradoActual, img){
 	const nombreIntegrante = $("#nombre-integrante")
 	const cargoIntegrante = $("#cargo-integrante")
-	const telefonoIntegrante = $("#telefono")
 	const promedioActIntegrante = $("#promedioAct")
 	const grado24Integrante = $("#grado24")
 	const correoIntegrante = $("#correo")
@@ -223,7 +208,6 @@ function candidataInfo(nombre, cargo, tel, grado24, correo, promedioAcademico, g
 	
 	nombreIntegrante.textContent = nombre 
 	cargoIntegrante.textContent = cargo 
-	telefonoIntegrante.textContent = tel 
 	promedioActIntegrante.textContent = "90-100" 
 	grado24Integrante.textContent = grado24 
 	correoIntegrante.textContent = correo 
