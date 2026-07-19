@@ -1,4 +1,5 @@
-import './style.css'
+// style.css se carga con un <link> en index.html para que funcione
+// tambien sin build (GitHub Pages sirve los archivos tal cual).
 const $ = r => document.querySelector(r)
 const fila = $('.contenedor-carousel');
 const peliculas = document.querySelectorAll('.pelicula');
